@@ -103,16 +103,16 @@ download \
   "https://github.com/madler/zlib/archive/"
 
 download \
-  "last_x264.tar.bz2" \
+  "x264-snapshot-20191217-2245.tar.bz2" \
   "" \
   "nil" \
   "http://download.videolan.org/pub/videolan/x264/snapshots/"
 
 download \
-  "x265_2.7.tar.gz" \
+  "x265_2.9.tar.gz" \
   "" \
-  "b0d7d20da2a418fa4f53a559946ea079" \
-  "https://bitbucket.org/multicoreware/x265/downloads/"
+  "nil" \
+  "https://ftp.osuosl.org/pub/blfs/conglomeration/x265/"
 
 download \
   "v0.1.6.tar.gz" \
@@ -166,8 +166,8 @@ download \
 download \
   "soxr-0.1.2-Source.tar.xz" \
   "" \
-  "0866fc4320e26f47152798ac000de1c0" \
-  "https://sourceforge.net/projects/soxr/files/"
+  "nil" \
+  "https://fc-public-resource.oss-cn-shanghai.aliyuncs.com/ffmpeg-static/"
 
 download \
   "release-0.98b.tar.gz" \
@@ -212,9 +212,9 @@ download \
   "https://github.com/xiph/speex/archive/"
 
 download \
-  "n4.0.tar.gz" \
-  "ffmpeg4.0.tar.gz" \
-  "4749a5e56f31e7ccebd3f9924972220f" \
+  "n4.2.4.tar.gz" \
+  "ffmpeg4.2.4.tar.gz" \
+  "nil" \
   "https://github.com/FFmpeg/FFmpeg/archive"
 
 [ $download_only -eq 1 ] && exit 0
